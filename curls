@@ -1,0 +1,5 @@
+curl --location 'localhost:3003/submit' \
+--form 'num1="76345"' \
+--form 'num2="4875"' \
+--form 'operator="*"'
+
