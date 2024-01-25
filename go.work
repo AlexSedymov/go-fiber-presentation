@@ -2,6 +2,7 @@ go 1.20
 
 use (
 	.
+	./go-code-examples/Calculator
 	./go-code-examples/GoroutinesAndChannels
 	./go-code-examples/Packages
 	./go-code-examples/StructsAndInterfaces

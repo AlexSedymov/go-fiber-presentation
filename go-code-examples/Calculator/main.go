@@ -1,13 +1,12 @@
 package main
 
 import (
-	function "presentation/functions"
+	function "calculator/functions"
 	"strconv"
-
 	"github.com/gofiber/fiber/v2"
 )
 
-func main1() {
+func main() {
 	app := fiber.New()
 
 	app.Get("/", func(c *fiber.Ctx) error {
