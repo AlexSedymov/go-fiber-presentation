@@ -2,7 +2,10 @@ package main
 
 import (
 	"fmt"
-	"pckgs/yourpackage"
+	// Importing the package we created
+	yourpackage "pckgs/yourpackage" 
+	/* Name "yourpackage" can be here but not need to be.
+	Overall can improve readability */
 )
 
 func main() {
